@@ -4,6 +4,8 @@ We've changed some stuff.
 
 We've changed even more stuff.
 
+We've changed stuff for a third time.
+
 Rat is an attempt to build an easy to use regression syntax, particularly
 focused on player skill models. It is similar in theme to the many fine
 regression packages (lm, lme4, rstanarm, brms, etc.), but tries to put
