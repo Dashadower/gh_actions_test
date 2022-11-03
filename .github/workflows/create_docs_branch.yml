@@ -26,10 +26,10 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           delete-branch: true
-          commit-message: Add docs for ${{ github.ref_name }}
-          title: Add docs for ${{ github.ref_name }}
-          body: Add docs for ${{ github.ref_name }}
-          branch: docs-${{ github.ref_name }}
+          commit-message: Add docs for ${{ github.head_ref }}
+          title: Add docs for ${{ github.head_ref }}
+          body: Add docs for ${{ github.head_ref }}
+          branch: docs-${{ github.head_ref }}
           base: main
           add-paths:
             docs/**
