@@ -28,7 +28,7 @@ jobs:
           delete-branch: true
           commit-message: Add docs for ${{ github.head_ref }}
           title: Add docs for ${{ github.head_ref }}
-          body: Add docs for ${{ github.head_ref }}
+          body: Add docs for ${{ github.head_ref }} (#${{ toJson(github.event.number) }})
           branch: docs-${{ github.head_ref }}
           base: main
           add-paths:
